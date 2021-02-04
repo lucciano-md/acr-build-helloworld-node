@@ -36,6 +36,7 @@ This project is intended for use with the following articles on [docs.microsoft.
 * [Automate container image builds in the cloud when you commit source code][build-task]
 * [Run a multi-step container workflow in the cloud when you commit source code][multi-step]
 * [Automate container image builds when a base image is updated in an Azure container registry][build-base]
+* [This links are wierd][wierd]
 
 ### Quickstart
 
