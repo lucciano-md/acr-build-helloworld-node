@@ -16,3 +16,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    - name: Create File
+      # You may pin to the exact commit or the version.
+      # uses: finnp/create-file-action@af8500fe0b0c5d8e04934f8bb62b9dda872c5803
+      uses: finnp/create-file-action@1.0.0
+      env:
+        FILE_NAME: "/tmp/runner/fileName.txt"
+        FILE_BASE64: "ZWFzdGVyZWdnLWxvbAo="
